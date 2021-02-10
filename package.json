@@ -1,0 +1,30 @@
+{
+  "name": "admintestwebdriveriopoc",
+  "version": "0.0.1",
+  "description": "WebDriverIO POC for the new admin portal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tests",
+    "js",
+    "cypress"
+  ],
+  "author": "Laerte Mello",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^6.12.1",
+    "@wdio/local-runner": "^6.12.1",
+    "@wdio/mocha-framework": "^6.11.0",
+    "@wdio/spec-reporter": "^6.11.0",
+    "@wdio/sync": "^6.11.0",
+    "chromedriver": "^88.0.0",
+    "wdio-chromedriver-service": "^6.0.4",
+    "@wdio/junit-reporter": "^6.3.6",
+    "@wdio/dot-reporter": "^6.3.6",
+    "@wdio/repl": "^7.0.0",
+    "@wdio/selenium-standalone-service": "^7.0.1",
+    "wdio-image-comparison-service": "^1.5.1"
+  }
+}
